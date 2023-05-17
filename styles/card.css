@@ -7,9 +7,26 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
-    background-color: var(--LightSlateBlue);
+    background-color: var(--lightSlateBlue);
+    text-align: center;
 }
 
 .card__content{
     flex-direction: column;
 }
+
+.card__content--list{
+flex-direction: column;
+}
+
+.card__content--reaction{
+background-color: var(--lightRed);
+}
+
+.card__content--memory{
+    background-color: var(--orangeYellow);
+    }
+
+.card__content--reaction{
+    background-color: var(--lightRed);
+        }
