@@ -27,6 +27,9 @@ background-color: var(--lightRed);
     background-color: var(--orangeYellow);
     }
 
-.card__content--reaction{
-    background-color: var(--lightRed);
+.card__content--verbal{
+    background-color: var(--greenTeal);
         }
+        .card__content--visual{
+            background-color: var(--cobaltBlue);
+                }
