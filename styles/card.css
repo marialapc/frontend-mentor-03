@@ -1,35 +1,35 @@
-.card{
-    max-width: 40rem;
-    height: 20rem;
+.card {
+  max-width: 40rem;
+  height: 20rem;
 }
 
-.card__result{
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    background-color: var(--lightSlateBlue);
-    text-align: center;
+.card__result {
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: var(--lightSlateBlue);
+  text-align: center;
 }
 
-.card__content{
-    flex-direction: column;
+.card__content {
+  flex-direction: column;
 }
 
-.card__content--list{
-flex-direction: column;
+.card__content--list {
+  flex-direction: column;
 }
 
-.card__content--reaction{
-background-color: var(--lightRed);
+.card__content--reaction {
+  background-color: var(--lightRed);
 }
 
-.card__content--memory{
-    background-color: var(--orangeYellow);
-    }
+.card__content--memory {
+  background-color: var(--orangeYellow);
+}
 
-.card__content--verbal{
-    background-color: var(--greenTeal);
-        }
-        .card__content--visual{
-            background-color: var(--cobaltBlue);
-                }
+.card__content--verbal {
+  background-color: var(--greenTeal);
+}
+.card__content--visual {
+  background-color: var(--cobaltBlue);
+}
