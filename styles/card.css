@@ -1,6 +1,7 @@
 .card {
   max-width: 40rem;
   height: 20rem;
+  border: 1px solid red;
 }
 
 .card__result {
@@ -32,4 +33,9 @@
 }
 .card__content--visual {
   background-color: var(--cobaltBlue);
+}
+
+.card__content--button{
+  color: var(--white);
+  background-color: var(--violetBlue);
 }
