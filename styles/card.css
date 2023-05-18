@@ -50,7 +50,7 @@
 
 .card__content {
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 50%;
   height: 100%;
   padding: 2rem;
@@ -67,16 +67,21 @@
 }
 
 .card__content--list {
+  width: 100%;
   flex-direction: column;
   gap: 1rem;
 }
 
 .card__content--element{
+  width: 100%;
+  justify-content: space-between;
   font-weight: 500;
+  color: var(--darkGrayBlue);
+  
 }
 
 .card__content--reaction {
-
+color: var(--lightRed);
 }
 
 .card__content--memory {
