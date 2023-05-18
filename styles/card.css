@@ -1,5 +1,5 @@
 .card {
-  max-width: 30rem;
+  max-width: 31rem;
   height: 20rem;
   border-radius: 2rem;
   box-shadow: 0px 10px 20px var(--paleBlue);
@@ -26,7 +26,7 @@
 
 .card__result--numbers {
   flex-direction: column;
-  width: 80%;
+  width: 75%;
   padding: 1rem;
   border-radius: 50%;
   background: linear-gradient(to bottom, var(--violetBlue), var(--persianBlue));
@@ -76,7 +76,7 @@
 }
 
 .card__content--reaction {
-  color: var(--lightRed);
+
 }
 
 .card__content--memory {
@@ -92,7 +92,8 @@
 
 .card__content--button {
   width: 100%;
-  height: 2rem;
+  height: 2.4rem;
+  font-size: 0.7rem;
   color: var(--white);
   background-color: var(--darkGrayBlue);
   border: none;
