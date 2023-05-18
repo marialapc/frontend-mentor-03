@@ -85,9 +85,25 @@
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--darkGrayBlue);
-  background-color: rgba(255, 87, 87, 0.171);
   border-radius: 0.3rem;
 }
+
+.card__content--element:first-child {
+  background-color: rgba(255, 87, 87, 0.05);
+}
+
+.card__content--element:nth-child(2){
+background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.card__content--element:nth-child(3){
+  background-color: hsla(166, 100%, 37%, 0.05);
+  }
+
+  .card__content--element:nth-child(4){
+    background-color: hsla(234, 85%, 45%, 0.05);
+    }
+
 
 .card__content--reaction {
   color: var(--lightRed);
