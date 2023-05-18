@@ -16,16 +16,17 @@
   border-radius: 2rem;
 }
 
-.card__result--title{
+.card__result--title {
   width: 100%;
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
-.card__result--message{
+.card__result--message {
   font-size: 1.5rem;
 }
 
-.card__result--numbers{
+.card__result--numbers {
   flex-direction: column;
   width: 70%;
   padding: 1rem;
@@ -33,16 +34,17 @@
   border-radius: 50%;
 }
 
-.card__result--score{
+.card__result--score {
   font-size: 3.5rem;
 }
 
-.card__result--totalScore{
- font-size:  0.8rem;
+.card__result--totalScore {
+  font-size: 0.8rem;
 }
 
-.card__result--scoreMessage{
+.card__result--scoreMessage {
   font-size: 0.8rem;
+  font-weight: 200;
 }
 
 .card__content {
@@ -55,7 +57,7 @@
   border-radius: 2rem;
 }
 
-.card__content--title{
+.card__content--title {
   text-align: left;
   font-size: 1.2rem;
   width: 100%;
@@ -81,7 +83,7 @@
   color: var(--cobaltBlue);
 }
 
-.card__content--button{
+.card__content--button {
   width: 100%;
   height: 2rem;
   color: var(--white);
