@@ -8,13 +8,17 @@
 .card__result {
   flex-direction: column;
   justify-content: center;
-  gap:1rem;
+  gap: 1rem;
   width: 50%;
   height: 100%;
   padding: 2.5rem;
   text-align: center;
   color: var(--white);
-  background: linear-gradient(to bottom, var(--lightSlateBlue), var(--lightRoyalBlue));
+  background: linear-gradient(
+    to bottom,
+    var(--lightSlateBlue),
+    var(--lightRoyalBlue)
+  );
   border-radius: 2rem;
 }
 
@@ -29,7 +33,10 @@
   width: 75%;
   padding: 1rem;
   border-radius: 50%;
-  background: linear-gradient(to bottom, var(--violetBlue), var(--persianBlue));
+  background: linear-gradient(
+    to bottom, 
+    var(--violetBlue), 
+    var(--persianBlue));
 }
 
 .card__result--score {
@@ -55,7 +62,6 @@
   height: 100%;
   padding: 2rem;
   border-radius: 2rem;
-
 }
 
 .card__content--title {
@@ -72,16 +78,15 @@
   gap: 1rem;
 }
 
-.card__content--element{
+.card__content--element {
   width: 100%;
   justify-content: space-between;
   font-weight: 500;
   color: var(--darkGrayBlue);
-  
 }
 
 .card__content--reaction {
-color: var(--lightRed);
+  color: var(--lightRed);
 }
 
 .card__content--memory {
@@ -106,5 +111,9 @@ color: var(--lightRed);
   cursor: pointer;
 }
 .card__content--button:hover {
-  background: linear-gradient(to bottom, var(--lightSlateBlue), var(--lightRoyalBlue));
+  background: linear-gradient(
+    to bottom,
+    var(--lightSlateBlue),
+    var(--lightRoyalBlue)
+  );
 }
