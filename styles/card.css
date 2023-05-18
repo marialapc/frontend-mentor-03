@@ -25,6 +25,22 @@
   font-size: 1.5rem;
 }
 
+.card__result--numbers{
+  flex-direction: column;
+  width: 70%;
+  padding: 1rem;
+  background-color: var(--cobaltBlue);
+  border-radius: 50%;
+}
+
+.card__result--score{
+  font-size: 3.5rem;
+}
+
+.card__result--totalScore{
+ font-size:  0.8rem;
+}
+
 .card__result--scoreMessage{
   font-size: 0.8rem;
 }
