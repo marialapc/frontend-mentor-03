@@ -6,11 +6,27 @@
 
 .card__result {
   flex-direction: column;
+  justify-content: space-around;
   width: 50%;
   height: 100%;
-  background-color: var(--lightSlateBlue);
+  padding: 2rem;
   text-align: center;
+  color: var(--white);
+  background-color: var(--lightSlateBlue);
   border-radius: 2rem;
+}
+
+.card__result--title{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.card__result--message{
+  font-size: 1.5rem;
+}
+
+.card__result--scoreMessage{
+  font-size: 0.8rem;
 }
 
 .card__content {
@@ -25,6 +41,7 @@
 
 .card__content--title{
   text-align: left;
+  font-size: 1.2rem;
   width: 100%;
 }
 
