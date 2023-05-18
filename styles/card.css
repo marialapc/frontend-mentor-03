@@ -25,6 +25,7 @@
 
 .card__result--message {
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .card__result--numbers {
@@ -59,14 +60,20 @@
 }
 
 .card__content--title {
+  width: 100%;
   text-align: left;
   font-size: 1rem;
-  width: 100%;
+  font-style: bold;
+  font-weight: 700;
 }
 
 .card__content--list {
   flex-direction: column;
   gap: 1rem;
+}
+
+.card__content--element{
+  font-weight: 500;
 }
 
 .card__content--reaction {
