@@ -35,8 +35,9 @@
   border-radius: 50%;
   background: linear-gradient(
     to bottom, 
-    var(--violetBlue), 
-    var(--persianBlue));
+    var(--violetBlue),
+    var(--persianBlue)
+  );
 }
 
 .card__result--score {
@@ -92,18 +93,17 @@
   background-color: rgba(255, 87, 87, 0.05);
 }
 
-.card__content--element:nth-child(2){
-background-color: hsla(39, 100%, 56%, 0.05);
+.card__content--element:nth-child(2) {
+  background-color: hsla(39, 100%, 56%, 0.05);
 }
 
-.card__content--element:nth-child(3){
+.card__content--element:nth-child(3) {
   background-color: hsla(166, 100%, 37%, 0.05);
-  }
+}
 
-  .card__content--element:nth-child(4){
-    background-color: hsla(234, 85%, 45%, 0.05);
-    }
-
+.card__content--element:nth-child(4) {
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
 
 .card__content--reaction {
   color: var(--lightRed);
