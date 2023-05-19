@@ -82,7 +82,7 @@
 .card__content--element {
   width: 100%;
   justify-content: space-between;
-  padding: 0.3rem;
+  padding: 0.4rem;
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--darkGrayBlue);
@@ -126,7 +126,7 @@
 
 .card__content--button {
   width: 100%;
-  height: 2.4rem;
+  height: 2.2rem;
   font-size: 0.7rem;
   color: var(--white);
   background-color: var(--darkGrayBlue);
